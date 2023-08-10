@@ -3,6 +3,9 @@ version: '${version}'
 main: com.cjykk.firstjoinop.FirstJoinOP
 api-version: '1.13'
 prefix: FirstJoinOP
-load: STARTUP
-authors: [CJYKK]
+load: POSTWORLD
+author: CJYKK
 description: 给第一个进服的人OP权限
+website: https://github.com/CJYKK/FirstJoinOP
+softdepend:
+  - AuthMe
